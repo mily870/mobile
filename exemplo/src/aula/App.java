@@ -6,7 +6,8 @@ public class App {
         String b;
 
         a=14;
-        b= (a>14)? "atrasado" : (a<14)? "adiantado" : "no horário";
+        b= (a>15)? "atrasado" : (a<15)? "adiantado" : "no horário";
         System.out.println("resultado " + b);
+        
     }
 }
