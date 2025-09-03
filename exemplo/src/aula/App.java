@@ -1,14 +1,18 @@
 package aula;
 
-public class App {
-   
-    public class IncrementoFor {
-        public static void main(String[] args) {
-            int x = 0;
-    
-            for (; x < 10; x++) {
-                System.out.println("x = " + (x + 1));
-            }
-        }
+public class App{
+    String nome;
+    String descricao;
+    String autor;
+    String isbn;
+    double preco;
+    String datapub;
+
+    void dadosLivros(){
+        System.out.println("nome do livro" + nome);
+        System.out.println("preço " + preco);
     }
 }
+
+
+
