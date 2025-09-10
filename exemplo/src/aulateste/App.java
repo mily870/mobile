@@ -1,4 +1,4 @@
-package aula;
+package aulateste;
 
 public class App{
     String nome;
@@ -11,6 +11,8 @@ public class App{
     void dadosLivros(){
         System.out.println("nome do livro" + nome);
         System.out.println("preço " + preco);
+        System.err.println("descrição" + descricao);
+
     }
 }
 
