@@ -1,4 +1,4 @@
-package aulateste;
+package aulaexemplo;
 
 public class App{
     String nome;

@@ -1,4 +1,4 @@
-package aulateste;
+package aulaexemplo;
 
 public class app2{
     public static void elevar() {
